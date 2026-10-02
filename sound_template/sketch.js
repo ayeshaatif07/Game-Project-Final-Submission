@@ -312,12 +312,7 @@ pop();
     {
         checkKrustyCrab();
     }
-
-    //cordinate
-    fill(0);
-    noStroke();
-    text(mouseX + "," + mouseY, mouseX, mouseY);
-} 
+}
 // end of draw()
 
 function keyPressed()
