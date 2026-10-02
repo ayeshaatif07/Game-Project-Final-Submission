@@ -244,7 +244,7 @@ pop();
     {
         fill(255);
         textSize(50);
-        text("GAME OVER! ", canvas.width/2.5 , canvas.height/2);
+        text("GAME OVER! ", width/2.5 , height/2);
         textSize(30);
         text("PRESS SPACE TO CONTINUE. ",350,315);
 		gameOverSound.play();
@@ -256,7 +256,7 @@ pop();
     {
         fill(255);
         textSize(45);
-        text("LEVEL COMPLETE! ", canvas.width/3 , canvas.height/2);
+        text("LEVEL COMPLETE! ", width/3 , height/2);
         textSize(30);
         text("PRESS SPACE TO CONTINUE. ",340,315);
         return;
@@ -331,6 +331,13 @@ function keyPressed()
         {
             bob_y -= 180;
             jumpSound.play();
+        }
+
+    //space restarts the game after game over or level complete
+    if(keyCode == 32 && (gary < 1 || KrustyCrab.isReached))
+        {
+            gary = 3;
+            start_Bob_World();
         }
 }
 
