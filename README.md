@@ -52,8 +52,9 @@ python3 -m http.server 8000
 
 If the page looks stale after an update, hard refresh with `Cmd+Shift+R` (`Ctrl+Shift+R` on Windows/Linux).
 
-## Credits
+## Author and Credits
 
-- Author: Aayesha Atif
+- **Author:** Ayesha Atif
+- **Coursework:** Introduction to Programming 1 – Final Game Project
 - Sounds from [101soundboards](https://www.101soundboards.com/boards/20194-spongebob-squarepants-sounds)
 - Built with [p5.js](https://p5js.org/) and p5.sound
