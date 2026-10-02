@@ -316,7 +316,7 @@ pop();
     //cordinate
     fill(0);
     noStroke();
-    text(mouseX + "," + mouseY, mouseX, mouseY);
+    text(mouseX + "," + mouseY, mouseX, mouseY);
 } 
 // end of draw()
 
