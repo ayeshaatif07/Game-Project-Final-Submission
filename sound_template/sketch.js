@@ -1923,7 +1923,7 @@ function start_Bob_World()
 
 function checkPlayerDie()
 {
-    if( bob_y > canvas.height )
+    if( bob_y > height )
     {
         if(gary > 0 || gary <= 3)
         {
