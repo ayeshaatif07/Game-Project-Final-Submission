@@ -19,6 +19,7 @@ A SpongeBob-themed side-scrolling platformer built with [p5.js](https://p5js.org
 | `A` | Move left |
 | `D` | Move right |
 | `W` | Jump |
+| `Space` | Restart after Game Over or Level Complete |
 
 ## Project Structure
 
@@ -33,7 +34,7 @@ sound_template/
 
 ## Run Locally
 
-Open `sound_template/index.html` in a browser. If the sounds do not load, serve the folder with a local web server instead:
+The game needs to be served from a local web server so the sounds load.
 
 ```bash
 git clone https://github.com/ayeshaatif07/Game-Project-Final-Submission.git
@@ -41,7 +42,15 @@ cd Game-Project-Final-Submission/sound_template
 python3 -m http.server 8000
 ```
 
-Then visit http://localhost:8000.
+Then open http://localhost:8000 in your browser. Press `Ctrl+C` in the terminal to stop the server.
+
+If you already have the project folder, just run the last command from inside `sound_template`:
+
+```bash
+python3 -m http.server 8000
+```
+
+If the page looks stale after an update, hard refresh with `Cmd+Shift+R` (`Ctrl+Shift+R` on Windows/Linux).
 
 ## Credits
 
